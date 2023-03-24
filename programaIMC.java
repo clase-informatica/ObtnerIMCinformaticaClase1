@@ -22,7 +22,7 @@ public class programaIMC {
 		double IMC=(peso)/(altura*altura);
 		
 		DecimalFormat formato = new DecimalFormat("#.##");
-        String IMCfomrateado = formato.format(IMC);
+                String IMCfomrateado = formato.format(IMC);
 		
 		System.out.println(nombre+" tu IMC es:"+IMCfomrateado);
     }
